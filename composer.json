@@ -1,0 +1,25 @@
+{
+    "name": "devinsideer/sphinxphp",
+    "type": "library",
+    "description": "Sphinx Search PHP 8 API with PSR compliance",
+    "keywords": ["sphinx","search","api"],
+    "homepage": "http://sphinxsearch.com/",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Superdsa"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sphinx": "src"
+        }
+    }
+}
